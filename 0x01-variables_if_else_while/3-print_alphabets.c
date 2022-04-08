@@ -9,15 +9,17 @@
 
 int main(void)
 {
-	int x = 'A', y = 'A';
+	int x = 'A', y;
 
 	do {
-		++x;
+		y = tolower(x);
 		putchar(tolower(x));
-	}while (x != 'Z');
+		x++;
+	}while (y != 'z');
 	do {
-		++y;
+		y = x;
 		putchar(y);
+		x++;
 	}while (y != 'Z');
 	putchar('\n');
 
