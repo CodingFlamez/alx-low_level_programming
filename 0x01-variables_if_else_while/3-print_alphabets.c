@@ -12,12 +12,12 @@ int main(void)
 	int x = 'A', y = 'A';
 
 	do {
-		x++
+		x++;
 		putchar(tolower(x));
 	}
 	while(x != 'Z');
 	do {
-		y++
+		y++;
 		putchar(y);
 	}
 	while(y != 'Z');
