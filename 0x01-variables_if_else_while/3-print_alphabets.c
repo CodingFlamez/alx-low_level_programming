@@ -9,20 +9,18 @@
 
 int main(void)
 {
-	int x = 'A';
-	int y;
+	int x, y;
 
-	do {
-		y = tolower(x);
+	for ( x = 'A' ; x <= 'Z'; ++x )
+	{
+		putchar(tolower(x));
+	}
+	for ( y = 'A' ; y <= 'Z'; ++y )
+	{
 		putchar(y);
-		x++;
-	} while (y != 'z' );
-	do {
-		y = x;
-		putchar(y);
-		x++;
-	} while (y != 'Z');
+	}
 	putchar('\n');
 
 	return (0);
 }
+		
