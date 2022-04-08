@@ -14,11 +14,11 @@ int main(void)
 	do {
 		putchar(tolower(x));
 		x++;
-	}while (x != 'Z');
+	}while (x > 'Z');
 	do {
 		putchar(y);
 		y++;
-	}while (y != 'Z');
+	}while (y > 'Z');
 	putchar('\n');
 
 	return (0);
