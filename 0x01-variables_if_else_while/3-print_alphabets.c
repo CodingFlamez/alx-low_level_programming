@@ -12,16 +12,14 @@ int main(void)
 	int x = 'A', y = 'A';
 
 	do {
-		x++;
 		putchar(tolower(x));
-	}
-	while(x != 'Z');
+		x++;
+	}while (x != 'Z');
 	do {
-		y++;
 		putchar(y);
-	}
-	while(y != 'Z');
+		y++
+	}while (y != 'Z');
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
