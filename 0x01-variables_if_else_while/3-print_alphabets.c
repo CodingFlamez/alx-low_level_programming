@@ -11,16 +11,15 @@ int main(void)
 {
 	int x, y;
 
-	for ( x = 'A' ; x <= 'Z'; ++x )
+	for (x = 'A' ; x <= 'Z'; ++x)
 	{
 		putchar(tolower(x));
 	}
-	for ( y = 'A' ; y <= 'Z'; ++y )
+	for (y = 'A' ; y <= 'Z'; ++y)
 	{
 		putchar(y);
 	}
 	putchar('\n');
 
 	return (0);
-}
-		
+}	
