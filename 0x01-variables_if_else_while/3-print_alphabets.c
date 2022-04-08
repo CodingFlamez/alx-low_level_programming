@@ -17,7 +17,7 @@ int main(void)
 	}while (x != 'Z');
 	do {
 		putchar(y);
-		y++
+		y++;
 	}while (y != 'Z');
 	putchar('\n');
 
