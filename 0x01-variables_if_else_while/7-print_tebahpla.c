@@ -11,12 +11,10 @@ int main(void)
 {
 	int x;
 
-	for (x = 0; x < 10; ++x)
-
+	for (x = 'Z'; x >= 'A'; --x)
 	{
-		putchar(48 + x);
+		putchar(tolower(x));
 	}
 	putchar('\n');
-
 	return (0);
 }
