@@ -7,7 +7,7 @@
  * Return: always 0 (success)
  */
 
-in main(void)
+int main(void)
 {
 	int a, b, c;
 
