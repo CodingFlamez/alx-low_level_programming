@@ -9,7 +9,7 @@
 int main(void)
 {
 
-	int a,b;
+	int a, b;
 
 	for (a = 0; a < 10; ++a)
 	{
@@ -17,7 +17,13 @@ int main(void)
 		{
 			if (b > a && a != b)
 
-				printf("%d%d\t", a, b);
+			{
+
+				putchar('0' + a);
+				putchar('0' + b);
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 return (0);
