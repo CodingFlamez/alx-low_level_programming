@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * Print_alphabet_x10 - prints the alphabet in lowercase, followed by a new line.
+ * print_alphabet_x10 - prints d alphabet in lowercase, followed by a new line.
  */
 
 void print_alphabet_x10(void)
 {
-	int a = 0, b;
+	int a = 1, b;
 
 	while (a <= 10)
 	{
@@ -16,7 +16,6 @@ void print_alphabet_x10(void)
 			_putchar(b);
 		}
 		a++;
-		_putchar('\n');
-		
+		_putchar('\n');	
 	}
 }
