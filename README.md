@@ -1,1 +1,1 @@
-This repo contains C programming
+This dir contains debugged files
