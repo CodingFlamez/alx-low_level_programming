@@ -1,1 +1,1 @@
-This dir contains debugged files
+This is a readme for low level programming repo
