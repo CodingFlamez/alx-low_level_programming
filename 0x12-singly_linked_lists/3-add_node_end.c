@@ -2,15 +2,15 @@
 
 /**
  * _strlen - find string length
- * @str: string
+ * @ctr: string
  * Return: length
  */
-int _strlen(const char *str)
+int _strlen(const char *ctr)
 {
 	int i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (ctr[i] != '\0')
 		i++;
 	return (i);
 }
