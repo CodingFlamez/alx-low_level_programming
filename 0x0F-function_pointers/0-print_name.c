@@ -4,7 +4,6 @@
 
 /**
  * void print_name - A function that prints the name inputted to it
- *
  * @name: the input name
  * @f: a pointer function
  * Return: nothing
